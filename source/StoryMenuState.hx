@@ -23,13 +23,13 @@ class StoryMenuState extends MusicBeatState
 	var scoreText:FlxText;
 
 	var weekData:Array<Dynamic> = [
-		['Tutorial'],
-		['Bopeebo', 'Fresh', 'Dadbattle'],
-		['Spookeez', 'South', "Monster"],
-		['Pico', 'Philly', "Blammed"],
-		['Satin-Panties', "High", "Milf"],
-		['Cocoa', 'Eggnog', 'Winter-Horrorland'],
-		['Senpai', 'Roses', 'Thorns']
+		['First Lesson'],
+		['Clowning', 'Circus', 'Carnival'],
+		['Bighead Boio', 'East', "Manipulation"],
+		['Flower', 'Funky', "Crashed"],
+		['Vibe', "Spook", "Honk"],
+		['Killer', 'Clown', 'Torture'],
+		['Demon', 'Failure', 'ERROR.System Cannot Compute']
 	];
 	var curDifficulty:Int = 1;
 
@@ -46,13 +46,13 @@ class StoryMenuState extends MusicBeatState
 	];
 
 	var weekNames:Array<String> = [
-		"",
-		"Daddy Dearest",
-		"Spooky Month",
-		"PICO",
-		"MOMMY MUST MURDER",
-		"RED SNOW",
-		"hating simulator ft. moawling"
+		"Getting Funky",
+		"Pow The Clown",
+		"Crazy Night Addicts",
+		"FLOWER",
+		"FILTHY REVENGE",
+		"BLOODY CHRISTMAS",
+		"error.[system not operating]"
 	];
 
 	var txtWeekTitle:FlxText;
